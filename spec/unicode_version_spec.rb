@@ -26,10 +26,12 @@ describe Unicode::Version do
   describe ".emoji_version" do
     it "returns current Ruby's Emoji version when no Ruby version given" do
       RUBY_VERSION, original_ruby_version = "2.7.0", RUBY_VERSION
+      Unicode::Version::RB_CONFIG_EMOJI_AVAILABLE, original_available = "2.8.0", Unicode::Version::RB_CONFIG_EMOJI_AVAILABLE
 
       assert_equal "12.1", Unicode::Version.emoji_version
 
       RUBY_VERSION = original_ruby_version
+      Unicode::Version::RB_CONFIG_EMOJI_AVAILABLE = original_available
     end
 
     it "returns Emoji version of given Ruby" do
