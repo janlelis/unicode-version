@@ -18,6 +18,6 @@ rvm:
 
 matrix:
   allow_failures:
-    - rvm: jruby-2.9.2.0
+    - rvm: jruby-9.2.9.0
     - rvm: truffleruby
 #   fast_finish: true
