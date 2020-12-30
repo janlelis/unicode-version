@@ -1,4 +1,4 @@
-# unicode-version [![[version]](https://badge.fury.io/rb/unicode-version.svg)](https://badge.fury.io/rb/unicode-version)  [![[travis]](https://travis-ci.org/janlelis/unicode-version.svg)](https://travis-ci.org/janlelis/unicode-version)
+# Unicode::Version.unicode_version [![[version]](https://badge.fury.io/rb/unicode-version.svg)](https://badge.fury.io/rb/unicode-version)  [![[ci]](https://github.com/janlelis/unicode-version/workflows/Test/badge.svg)](https://github.com/janlelis/unicode-version/actions?query=workflow%3ATest)
 
 Makes it easy to check for Unicode and Emoji support of your current Ruby (and older Rubies)
 

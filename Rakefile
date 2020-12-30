@@ -32,7 +32,7 @@ end
 
 desc "#{gemspec.name} | Spec"
 task :spec do
-  sh "for file in spec/*_spec.rb; do ruby $file; done"
+  ruby "spec/unicode_version_spec.rb"
 end
 task default: :spec
 
