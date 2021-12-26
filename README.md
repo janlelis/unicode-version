@@ -13,8 +13,8 @@ gem "unicode-version"
 ## Usage
 
 ```ruby
-# Returns current Unicode version (example with Ruby 3.0.0)
-Unicode::Version.unicode_version # => 12.1
+# Returns current Unicode version (example with Ruby 3.1.0)
+Unicode::Version.unicode_version # => 13.0.0
 
 # Returns Unicode version of older Rubies
 Unicode::Version.unicode_version "2.6.2" # => 12.0.0
@@ -23,8 +23,8 @@ Unicode::Version.unicode_version 1.9 # => 5.2.0
 # Returns nil when Ruby version too old (before 1.9)
 Unicode::Version.unicode_version 1.8 # => nil
 
-# Returns current Emoji version (example with Ruby 3.0.0)
-Unicode::Version.emoji_version # => 12.1
+# Returns current Emoji version (example with Ruby 3.1.0)
+Unicode::Version.emoji_version # => 13.1
 
 # Returns Emoji version of older Rubies
 Unicode::Version.emoji_version "2.6.2" # => 12.0
