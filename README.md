@@ -36,4 +36,4 @@ Unicode::Version.emoji_version 2.4 # => nil
 
 ## MIT License
 
-Copyright (C) 2020-2021 Jan Lelis <https://janlelis.com>. Released under the MIT license.
+Copyright (C) 2020-2022 Jan Lelis <https://janlelis.com>. Released under the MIT license.
