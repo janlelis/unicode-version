@@ -8,6 +8,7 @@ module Unicode
     RB_CONFIG_EMOJI_AVAILABLE = "2.6.0"
 
     RUBY_UNICODE_VERSIONS = {
+      3.3 => "15.0.0",
       3.2 => "15.0.0",
       3.1 => "13.0.0",
       3.0 => "12.1.0",
@@ -26,6 +27,7 @@ module Unicode
     }.freeze
 
     RUBY_EMOJI_VERSIONS = {
+      3.3 => "15.0",
       3.2 => "15.0",
       3.1 => "13.1",
       3.0 => "12.1",

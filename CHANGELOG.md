@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### 1.4.0
+
+* Add Ruby 3.3
+
 ### 1.3.0
 
 * Add Ruby 3.2
