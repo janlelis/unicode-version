@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### 1.5.0
+
+* Add Ruby 3.4 (same Unicode version as 3.3)
+
 ### 1.4.0
 
 * Add Ruby 3.3
