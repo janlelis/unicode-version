@@ -19,7 +19,7 @@ describe Unicode::Version do
     end
 
     it "returns nil when Ruby version too old" do
-      assert_equal nil, Unicode::Version.unicode_version(1.8)
+      assert_nil Unicode::Version.unicode_version(1.8)
     end
   end
 
@@ -40,7 +40,7 @@ describe Unicode::Version do
     end
 
     it "returns nil when Ruby version too old" do
-      assert_equal nil, Unicode::Version.emoji_version(2.4)
+      assert_nil Unicode::Version.emoji_version(2.4)
     end
   end
 end
